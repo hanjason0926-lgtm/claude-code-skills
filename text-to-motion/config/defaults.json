@@ -1,0 +1,48 @@
+{
+  "$comment": "text-to-motion 預設規格檔,是所有預設值的『唯一』來源。Step 0 中使用者未指定的參數一律以本檔為準;動工前先讀本檔取當下數值。SKILL.md 速查表與 make_gifs.sh 內建 fallback 都不應重抄本檔數字(避免漂移),呼叫端負責讀本檔並把數值帶進 make_gifs.sh 參數。",
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "codec": "libx264",
+    "crf": 18,
+    "pix_fmt": "yuv420p",
+    "faststart": true
+  },
+  "gif": {
+    "width": 960,
+    "height": 540,
+    "fps": 15,
+    "fps_allowed": [30, 15, 10, 6, 5],
+    "aspect_mode": "pad",
+    "aspect_modes": ["pad", "crop", "stretch"],
+    "colors": 256,
+    "loop": 0,
+    "size_warn_mb": 8
+  },
+  "scenes": {
+    "per_scene_seconds_min": 6,
+    "per_scene_seconds_max": 15,
+    "total_seconds_min": 30,
+    "total_seconds_max": 120
+  },
+  "style": {
+    "theme": "dark-tech",
+    "bg": "#07090f",
+    "ink": "#edf1f8",
+    "dim": "#9aa4ba",
+    "faint": "#555f76",
+    "accent_1": "#7c6cff",
+    "accent_2": "#2dd4ff",
+    "good": "#3ddc97",
+    "bad": "#ff6b7a",
+    "amber": "#ffc857",
+    "font_zh": "Noto Sans TC",
+    "font_mono": "JetBrains Mono",
+    "font_fallback": "Microsoft JhengHei"
+  },
+  "engine": {
+    "hyperframes_version": "0.6.88",
+    "gsap_cdn": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+  }
+}
