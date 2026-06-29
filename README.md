@@ -16,8 +16,10 @@ Skill 是可在 Claude Code 中使用 `/skill-name` 呼叫的自訂指令。每�
 | `skill-to-agent/` | `skill-to-agent` | 繁體中文 | 把單一既有 skill 打包成獨立可執行的 claude-agent-sdk agent，並用五道關卡鎖定只能用該 skill、拒絕系統／設定／越界問題 |
 | — | [`skill-creator`](https://github.com/anthropics/skills/tree/main/skills/skill-creator) | English | Anthropic 官方 skill 製作工具，用於建立新的 Claude Code skill |
 | — | [`hyperframes`](https://github.com/heygen-com/hyperframes) | CLI | 將 HTML + GSAP 動畫在無頭瀏覽器中逐格擷取、render 成 MP4 影片的工具 |
+| — | [`superpowers`](https://github.com/obra/superpowers) | English | obra 的 agentic skills 框架／開發方法論：自動串接 brainstorm → TDD → 計劃 → 程式審查 → 系統化除錯等流程，以 plugin 方式安裝 |
 
 ## 參考資源
 
 - [anthropics/skills](https://github.com/anthropics/skills) — Anthropic 官方 skill 範本、工具與規格文件
 - [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) — karpathy-guidelines skill 原始來源
+- [obra/superpowers](https://github.com/obra/superpowers) — agentic skills 框架與軟體開發方法論（brainstorm／TDD／計劃／審查／除錯），可作為 plugin 安裝
