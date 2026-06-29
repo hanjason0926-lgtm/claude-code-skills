@@ -13,6 +13,7 @@ Skill 是可在 Claude Code 中使用 `/skill-name` 呼叫的自訂指令。每�
 | `andrej-karpathy-skills/` | `karpathy-guidelines` | English | Behavioral guidelines to reduce common LLM coding mistakes |
 | `andrej-karpathy-skills-zh/` | `karpathy-guidelines-zh` | 繁體中文 | 減少 LLM 常見程式錯誤的行為準則（中文版） |
 | `text-to-motion/` | `text-to-motion` | 繁體中文 | 把文字敘述製作成動態簡報影片（MP4）／動圖（GIF）的完整流程：HyperFrames HTML 動畫 + ffmpeg，可控尺寸／fps／分段／檔案大小上限等 |
+| `skill-to-agent/` | `skill-to-agent` | 繁體中文 | 把單一既有 skill 打包成獨立可執行的 claude-agent-sdk agent，並用五道關卡鎖定只能用該 skill、拒絕系統／設定／越界問題 |
 | — | [`skill-creator`](https://github.com/anthropics/skills/tree/main/skills/skill-creator) | English | Anthropic 官方 skill 製作工具，用於建立新的 Claude Code skill |
 | — | [`hyperframes`](https://github.com/heygen-com/hyperframes) | CLI | 將 HTML + GSAP 動畫在無頭瀏覽器中逐格擷取、render 成 MP4 影片的工具 |
 
