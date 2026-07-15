@@ -19,6 +19,7 @@ Skill 是可在 Claude Code 中使用 `/skill-name` 呼叫的自訂指令。每�
 | — | [`skill-creator`](https://github.com/anthropics/skills/tree/main/skills/skill-creator) | English | Anthropic 官方 skill 製作工具，用於建立新的 Claude Code skill |
 | — | [`hyperframes`](https://github.com/heygen-com/hyperframes) | CLI | 將 HTML + GSAP 動畫在無頭瀏覽器中逐格擷取、render 成 MP4 影片的工具 |
 | — | [`superpowers`](https://github.com/obra/superpowers) | English | obra 的 agentic skills 框架／開發方法論：自動串接 brainstorm → TDD → 計劃 → 程式審查 → 系統化除錯等流程，以 plugin 方式安裝 |
+| — | [`oh-my-claudecode`](https://github.com/Yeachan-Heo/oh-my-claudecode) | English | Teams-first 多代理協作框架，零設定安裝，內含多個專用 agent 與 Team／Autopilot／Ultrawork 等模式 |
 
 ## 參考資源
 
