@@ -2,8 +2,6 @@
 
 Claude Code 的自訂技能（Skills）與外掛（Plugins）整理集合，用於強化 AI 輔助程式開發的流程與行為準則。
 
-本 repo 收錄三類內容：可直接呼叫的 **Skills**、擴充開發流程的 **Plugins**，以及延伸閱讀的 **參考資源**。
-
 ## 什麼是 Skill？
 
 Skill 是可在 Claude Code 中使用 `/skill-name` 呼叫的自訂指令。每個 Skill 以 `SKILL.md` 定義，包含行為準則或操作流程，讓 Claude 在特定情境下依照預設規範運作。
