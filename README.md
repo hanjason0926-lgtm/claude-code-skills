@@ -25,3 +25,4 @@ Skill 是可在 Claude Code 中使用 `/skill-name` 呼叫的自訂指令。每�
 - [anthropics/skills](https://github.com/anthropics/skills) — Anthropic 官方 skill 範本、工具與規格文件
 - [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) — karpathy-guidelines skill 原始來源
 - [obra/superpowers](https://github.com/obra/superpowers) — agentic skills 框架與軟體開發方法論（brainstorm／TDD／計劃／審查／除錯），可作為 plugin 安裝
+- [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) — Teams-first 多代理協作框架，零設定安裝，內含多個專用 agent 與 Team／Autopilot／Ultrawork 等模式
