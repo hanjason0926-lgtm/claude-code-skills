@@ -20,6 +20,7 @@ Plugin 是可透過 `/plugin marketplace add` 加入來源、再用 `/plugin ins
 | `skill-to-agent/` | `skill-to-agent` | 繁體中文 | 把單一既有 skill 打包成獨立可執行的 claude-agent-sdk agent，並用五道關卡鎖定只能用該 skill、拒絕系統／設定／越界問題 |
 | `skill-bakeoff/` | `skill-bakeoff` | English | 讓多個 skill 對同一份任務各做一版並排比較：支援指定 skill 清單或只給主題（自動上網搜尋、安全審查候選 skill），每個 skill 在獨立子代理平行執行，最後產出比較用 hub 頁面 |
 | `project-spec-doc/` | `project-spec-doc` | 繁體中文 | 把 HTML 原型整理成正式的企劃／功能規格文件，同時產出 Word（.docx）簽核版與單檔 HTML 客戶對焦版；內含 EventFlow 範例文件 |
+| `dashboard-requirement-review/` | `dashboard-requirement-review` | 繁體中文 | 儀表板／報表／BI 需求的風險盤點：找出「做不出來」「會算錯但不報錯」「現在不問就永遠補不回來」的項目，產出可直接對焦的問題清單 |
 | — | [`skill-creator`](https://github.com/anthropics/skills/tree/main/skills/skill-creator) | English | Anthropic 官方 skill 製作工具，用於建立新的 Claude Code skill |
 | — | [`hyperframes`](https://github.com/heygen-com/hyperframes) | English | 把 HTML + CSS + 動畫（GSAP／Lottie／Three.js）在無頭瀏覽器中逐格擷取、render 成 MP4 影片的框架,內含 20 個影片工作流 skill 與 CLI |
 | — | [`OpenMontage`](https://github.com/calesthio/OpenMontage) | English | 開源的 agentic 影片製作系統，內含 12 條 pipeline、52 種工具與 500+ agent skills，讓 AI 編程助理化身完整的影片製作工作室 |
